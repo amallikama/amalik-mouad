@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transport Website Template</title>
+</head>
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    *
+     {
+  margin: 0;
+  padding: 0;
+   overflow: hidden;
+   font-family: "Poppins", sans-serif;
+}
+
+    .container-fluid {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(to left,rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(bg.jpg) center / cover;
+        }
+    .container
+    {
+        width: 1200px;
+        height: 80px;
+        margin: auto;
+        display: flex;
+        justify-content:space-between ;
+        list-style: none;
+    }
+    .logo
+    {
+      color:#fff;
+      cursor: pointer;
+    }
+    /* LES BARRES */
+    nav ul
+    {
+    list-style: none ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+    nav ul li
+    {
+      margin-right: 30px;
+      cursor: pointer;
+      color: #fff;
+      font-weight: 400;
+      font-size: 15px;
+     
+    }
+    .active
+    {
+      color: #058283;
+     
+    }
+    /* quand le curseur sur les tiquettes la couleur change*/
+    nav ul li :hover
+    {
+     color:#058283;
+    }
+    .btn
+    {
+     width: 120px;
+     height: 45px;
+     border-radius: 8px;
+     border: none;
+     background: #058283;
+     color: #fff;
+     cursor: pointer;
+     font-size: 14px;
+    }
+    .btn :hover
+    {
+     
+     background: #fff;
+     color: #058283;
+    
+    }
+    /* texte*/
+    .content
+    {
+     width: 1200px;
+     height: 100vh;
+     margin: auto;
+    }
+   
+    .content h1
+    {
+  font-size: 80px;
+  color: #fff;
+  margin-top: 20px;
+   line-height: 75px;
+}
+
+.content p
+    {
+  color: #f1f1f1;
+  font-size: 16px;
+  margin-top: 30px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+</style>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <h2 class="logo">Golden</h2>
+            
+            <nav>
+                <ul>
+                    <li class="active">Home</li>
+                    <li> <a href="about.html">About</a></li>
+                    <li> <a href="srv.html">service</a></li>
+                    <li> <a href="destination.html">destination</a></li>
+                    <li ><a href="reservation.html">Reservation</a> </li> 
+                    <li><button class="btn" > <a href="contact.html">Contact</a></button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <H1><br> TRANSPORT Golden</H1>
+            <P>Voyager partout en France n'a jamais été aussi simple avec SNCF. Trouvez les meilleurs billets SNCF et montez à bord des trains TGV, Intercités ou TER, pour le travail ou pour des vacances bien méritées, SNCF vous emmène dans les quatre coins de l'Hexagone. Le réseau TGV emprunté par les trains TGV INOUI et OUIGO dessert les grandes métropoles de France, de Paris à Lyon en passant par Marseille et Bordeaux à une vitesse maximale de 320 km/heure.
+                <br>
+            </P>
+            <button class="btn"><a href="read more">RED MORE</a> </button>
+           
+       </div> 
+    
+   
+</body>
+</html>
